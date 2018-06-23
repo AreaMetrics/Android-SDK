@@ -4,31 +4,37 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.areametrics</groupId>
   <artifactId>sdk</artifactId>
-  <version>2.2.1</version>
+  <version>2.4.0</version>
   <packaging>aar</packaging>
   <dependencies>
     <dependency>
       <groupId>com.android.support</groupId>
       <artifactId>appcompat-v7</artifactId>
-      <version>25.3.1</version>
+      <version>27.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-v4</artifactId>
+      <version>27.1.0</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>com.google.android.gms</groupId>
       <artifactId>play-services-base</artifactId>
-      <version>10.2.6</version>
+      <version>12.0.1</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>com.google.android.gms</groupId>
       <artifactId>play-services-location</artifactId>
-      <version>10.2.6</version>
+      <version>12.0.1</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.altbeacon</groupId>
       <artifactId>android-beacon-library</artifactId>
-      <version>2.12.3</version>
+      <version>2.14</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
